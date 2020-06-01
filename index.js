@@ -1,3 +1,5 @@
+// Stock portfolio app, kurs von codemy.com - John Elder
+
 const express = require('express');
 const app = express();
 const exphbs  = require('express-handlebars');
