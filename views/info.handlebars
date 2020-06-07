@@ -1,2 +1,7 @@
 info
-<p>{{ stuff }}</p>
+<p>{{ stock }}</p>
+
+{{#each stock }}
+	{{@key }} | {{ this}} <br/>
+
+{{/each }}

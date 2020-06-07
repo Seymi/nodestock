@@ -1,0 +1,25 @@
+<div class="jumbotron">
+    <h1 class="display-4">
+      {{ stock.companyName }} ({{ stock.symbol }})
+    </h1>
+		<strong>open: </strong> {{ stock.open }} <br/>
+		<strong>close: </strong> {{ stock.close }} <br/>
+		<strong>high: </strong> {{ stock.high }} <br/>
+		<strong>low: </strong> {{ stock.low }} <br/>
+		<strong>latestPrice: </strong> {{ stock.latestPrice }} <br/>
+		<strong>previousClose: </strong> {{ stock.previousClose }} <br/>
+		<strong>previousVolume: </strong> {{ stock.previousVolume }} <br/>
+		<strong>volume: </strong> {{ stock.volume }} <br/>
+		<strong>week52High: </strong> {{ stock.week52High }} <br/>
+		<strong>week52Low: </strong> {{ stock.week52Low }} <br/>
+		<strong>ytdChange: </strong> {{ stock.ytdChange }} <br/>
+		<strong>changePercent: </strong> {{ stock.changePercent }} <br/>
+		<strong>marketCap: </strong> {{ stock.marketCap }} <br/>
+</div>
+
+<!--
+{{#each stock }}
+	{{@key }} | {{ this}} <br/>
+
+{{/each }}
+-->
